@@ -12,6 +12,6 @@ def index():
 
     return render_template('index.html')
 
-@app.route('/Hello/<name>')
+@app.route('https://anidurg.github.io/learngitacode/Hello/<name>')
 def hello_name(name):
     return 'Hello ' +name
