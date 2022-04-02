@@ -15,3 +15,5 @@ def index():
 @app.route('https://anidurg.github.io/learngitacode/Hello/<name>')
 def hello_name(name):
     return 'Hello ' +name
+
+app.run(host='0.0.0.0', port=8080)
